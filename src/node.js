@@ -26,7 +26,7 @@ class Node {
                 node.parent = null;
                 this.right = null;
             } else {
-                throw 'node is not a child'
+                throw new Error('node is not a child');
             }
         }
 
